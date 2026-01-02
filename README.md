@@ -14,7 +14,7 @@ It allows developers to integrate Razorpay payments using the **unified AnyPay A
 - Handles payment statuses:
     - `success`
     - `failed`
-    - `pending` (external wallets)
+    - `pending`
     - `error`
 - No forced UI – developer decides how to display payment results
 - Lightweight and easy to integrate
@@ -27,6 +27,4 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  anypay: <latest_version>
   anypay_razorpay: <latest_version>
-  razorpay_flutter: <latest_version>

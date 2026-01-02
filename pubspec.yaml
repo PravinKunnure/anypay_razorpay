@@ -1,6 +1,6 @@
 name: anypay_razorpay
 description: "Razorpay adapter for AnyPay, enabling Razorpay payments in Flutter."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/PravinKunnure/anypay_razorpay
 repository: https://github.com/PravinKunnure/anypay_razorpay.git
 
