@@ -1,39 +1,32 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# AnyPay Razorpay Adapter
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+[![Pub Version](https://img.shields.io/pub/v/anypay_razorpay)](https://pub.dev/packages/anypay_razorpay) | [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+**anypay_razorpay** is a **Razorpay adapter for the AnyPay Flutter plugin**.  
+It allows developers to integrate Razorpay payments using the **unified AnyPay API**, while keeping UI fully under the developer's control.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+---
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Unified API through AnyPay: `AnyPay.charge()`
+- Adapter-based Razorpay integration
+- Handles payment statuses:
+    - `success`
+    - `failed`
+    - `pending` (external wallets)
+    - `error`
+- No forced UI – developer decides how to display payment results
+- Lightweight and easy to integrate
 
-## Getting started
+---
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Installation
 
-## Usage
+Add this to your `pubspec.yaml`:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  anypay: <latest_version>
+  anypay_razorpay: <latest_version>
+  razorpay_flutter: <latest_version>
